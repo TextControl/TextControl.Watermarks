@@ -42,8 +42,14 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TXTextControl, Version=32.0.2500.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
-    <Reference Include="TXTextControl.Windows.Forms, Version=32.0.1700.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXTextControl, Version=33.0.2600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 33.0.NET for Windows Forms\Assembly\TXTextControl.dll</HintPath>
+    </Reference>
+    <Reference Include="TXTextControl.Windows.Forms, Version=33.0.1800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 33.0.NET for Windows Forms\Assembly\TXTextControl.Windows.Forms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
